@@ -32,6 +32,7 @@ package
 			tf.size = 11;
 
 			this.scaleDebug = new TextField();
+			this.scaleDebug.mouseEnabled = false;
 			this.scaleDebug.width = 310;
 			this.scaleDebug.defaultTextFormat = tf;
 			this.scaleDebug.x = 2;
@@ -41,6 +42,7 @@ package
 			this.stage.addChild(this.scaleDebug);
 
 			this.rotateDebug = new TextField();
+			this.rotateDebug.mouseEnabled = false;
 			this.rotateDebug.width = 310;
 			this.rotateDebug.defaultTextFormat = tf;
 			this.rotateDebug.x = 2;
@@ -50,6 +52,7 @@ package
 			this.stage.addChild(this.rotateDebug);
 
 			this.positionDebug = new TextField();
+			this.positionDebug.mouseEnabled = false;
 			this.positionDebug.width = 310;
 			this.positionDebug.defaultTextFormat = tf;
 			this.positionDebug.x = 2;
